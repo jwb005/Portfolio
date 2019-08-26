@@ -1,0 +1,110 @@
+<html>
+<head> 
+	<title>JWB Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+			<a href=""><img class="logo" src="logo.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="micon">
+			<ul class="nav navbar-nav navbar-right">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="Jin Woo Bae Resume.pdf">CV</a></li>
+			<li><a href="#contact">Contact</a></li>
+			</ul>
+			</div>
+		</div>
+	</nav>
+	
+		<!----------Home------------->
+		<section id = "home">
+		<div class="container">
+		</div>
+		</header>
+
+		<!----------About------------->
+<section id="about">
+<div class="container">
+	<div class="section-title">
+		About Me
+		</div>
+<div class="leftside">
+		<img class="img-thumbnail" src="Profile Picture.jpg" alt="Nature" width="390"> 
+</div>
+</div>
+<div class="rightside">
+	<div class="greeting">
+		Nice to meet you!
+	</div>
+<div class="about-content">
+	I'm currently an undergraduate student at 
+	University of California San Diego studying 
+	Cognitive Science with specialization in Human
+	Computer Interaction. I am an aspiring project manager
+	and UI/UX Designer. One of my greatest value is to do all things
+	meaningfully; thus, I desire to work for companies with strong convictions
+	and visions for the world. 
+</div> 
+	
+</div>
+</div>
+</div>
+</section>
+		<!---------Projects---------->
+<section id="projects">
+<div class="container">
+<div class="card">
+                <div class="card-image">
+                    <img class="img-responsive" src="http://material-design.storage.googleapis.com/publish/v_2/material_ext_publish/0Bx4BSt6jniD7TDlCYzRROE84YWM/materialdesign_introduction.png">
+                    <span class="card-title">Projects</span>
+                </div>
+                
+                
+                <div class="card-action">
+                    <a href="Final Project Paper.pdf" target="new_blank">DSGN 1 Project</a>
+                    <a href="#" target="new_blank">Link</a>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</section>
+<!--------Contact-------->
+<section id="contact">
+<div class="container">
+	<div class="contact-title">
+		<h1>Say Hello</h1>
+	</div>
+	<div class="contact-form">
+		<form id="contact-form" method="post" action="contact-form.php">
+			<input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+			<input name="email" type="text" class="form-control" placeholder="Your Email" required><br>
+			<textarea name="message" class="form-control" placeholder="Message" rows=4 required>
+			</textarea><br>
+			<input type="submit" class="form-control submit" value="SEND MESSAGE">
+		</form>
+	</div>
+</div>
+
+</section>	
+	
+</body>
+</html>
