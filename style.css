@@ -197,7 +197,7 @@ input
 {
 	height: 45px;
 }
-form .submit
+form .btn
 {
 	background: #ff5722;
 	height:50px;
@@ -206,7 +206,7 @@ form .submit
 	letter-spacing:2px;
 	color:white;
 }
-form .submit:hover
+form .btn:hover
 {
 	background-color: #f44336;
 	cursor:pointer;
